@@ -30,12 +30,11 @@ class Cow(Animal):
     def sound(self):
         print("Cow says Moo!")
 
-# Create objects
 dog = Dog()
 cat = Cat()
 cow = Cow()
 
-# Call the sound method
 dog.sound()
 cat.sound()
 cow.sound()
+
